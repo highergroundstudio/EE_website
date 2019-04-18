@@ -1,4 +1,12 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/7773ac33-b529-4732-b08c-c868d60594d9/deploy-status)](https://app.netlify.com/sites/elevatedequities/deploys)
+<p align="center">
+  [![Netlify Status](https://api.netlify.com/api/v1/badges/7773ac33-b529-4732-b08c-c868d60594d9/deploy-status)](https://app.netlify.com/sites/elevatedequities/deploys)
+  <a href="https://github.com/prettier/prettier">
+    <img
+      src="https://img.shields.io/badge/styled_with-prettier-ff69b4.svg"
+      alt="styled with prettier"
+    />
+  </a>
+ </p>
 
 # gatsby-starter-business
 A [Gatsby v2](https://www.gatsbyjs.org/) and [Netlify CMS](https://www.netlifycms.org) powered generic business website.

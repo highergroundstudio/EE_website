@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7773ac33-b529-4732-b08c-c868d60594d9/deploy-status)](https://app.netlify.com/sites/elevatedequities/deploys)
+
 # gatsby-starter-business
 A [Gatsby v2](https://www.gatsbyjs.org/) and [Netlify CMS](https://www.netlifycms.org) powered generic business website.
 

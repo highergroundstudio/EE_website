@@ -4,7 +4,7 @@ module.exports = {
   siteTitle: `Elevated Equities`,
   siteTitleShort: `EE`,
   siteDescription: `Proven, quick commercial loan fundings in 2-3 weeks.`,
-  siteUrl: `https://elevatedequities.com/`,
+  siteUrl: `https://elevatedequities.netlify.com/`,
   themeColor: `#BFD11D`,
   backgroundColor: `#fff`,
   pathPrefix: null,

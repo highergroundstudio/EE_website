@@ -1,0 +1,128 @@
+.team-member {
+    text-align: center;
+    margin-bottom: 40px;
+
+    h3 {
+        font-size: 18px;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+        letter-spacing: 0.08em;
+
+        a {
+            color: #555555;
+        }
+    }
+
+    p.role {
+        color: #999999;
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+    }
+
+    .social {
+        margin-bottom: 20px;
+
+        a {
+            margin: 0 10px 0 0;
+            color: #fff;
+            display: inline-block;
+            width: 26px;
+            height: 26px;
+            border-radius: 13px;
+            line-height: 26px;
+            font-size: 15px;
+            text-align: center;
+            -webkit-transition: all 0.2s ease-out;
+            -moz-transition: all 0.2s ease-out;
+            transition: all 0.2s ease-out;
+            vertical-align: bottom;
+
+            i {
+                vertical-align: bottom;
+                line-height: 26px;
+            }
+
+            &.facebook {
+                background-color: #4460ae;
+            }
+
+            &.gplus {
+                background-color: #c21f25;
+            }
+
+            &.twitter {
+                background-color: #3cf;
+            }
+
+            &.instagram {
+                background-color: #cd4378;
+            }
+
+            &.email {
+                background-color: #4a7f45;
+            }
+        }
+    }
+
+    .text p {
+        color: #999999;
+        font-size: 12px;
+    }
+
+    .social {
+        margin-bottom: 20px;
+    }
+}
+
+.team-member-detail .social {
+    margin-bottom: 20px;
+}
+
+.team-member .social a,
+.team-member-detail .social a {
+    margin: 0 10px 0 0;
+    color: #fff;
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    border-radius: 13px;
+    line-height: 26px;
+    font-size: 15px;
+    text-align: center;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    vertical-align: bottom;
+}
+
+.team-member .social a i,
+.team-member-detail .social a i {
+    vertical-align: bottom;
+    line-height: 26px;
+}
+
+.team-member .social a.facebook,
+.team-member-detail .social a.facebook {
+    background-color: #4460ae;
+}
+
+.team-member .social a.gplus,
+.team-member-detail .social a.gplus {
+    background-color: #c21f25;
+}
+
+.team-member .social a.twitter,
+.team-member-detail .social a.twitter {
+    background-color: #3cf;
+}
+
+.team-member .social a.instagram,
+.team-member-detail .social a.instagram {
+    background-color: #cd4378;
+}
+
+.team-member .social a.email,
+.team-member-detail .social a.email {
+    background-color: #4a7f45;
+}

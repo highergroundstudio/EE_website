@@ -1,0 +1,74 @@
+/* ribbons for product sales etc. */
+
+.ribbon {
+    position: absolute;
+    top: 50px;
+    padding-left: 51px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+
+    .ribbon-background {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .theribbon {
+        position: relative;
+        width: 80px;
+        padding: 6px 20px 6px 20px;
+        margin: 30px 10px 10px -71px;
+        color: #fff;
+        background-color: $main-color;
+        font-family: "Roboto", Helvetica, Arial, sans-serif;
+
+        &:before {
+            content: ' ';
+            position: absolute;
+            width: 0;
+            height: 0;
+        }
+
+        &:after {
+            content: ' ';
+            position: absolute;
+            width: 0;
+            height: 0;
+            left: 0px;
+            top: 100%;
+            border-width: 5px 10px;
+            border-style: solid;
+            border-color: #000000 #000000 transparent transparent;
+        }
+    }
+
+    &.sale {
+        top: 0;
+    }
+
+    &.new {
+        top: 50px;
+
+        .theribbon {
+            background-color: #5bc0de;
+            text-shadow: 0px 1px 2px #bbb;
+
+            &:after {
+                border-color: #2390b0 #2390b0 transparent transparent;
+            }
+        }
+    }
+
+    &.gift {
+        top: 100px;
+
+        .theribbon {
+            background-color: #5cb85c;
+            text-shadow: 0px 1px 2px #bbb;
+
+            &:after {
+                border-color: #357935 #357935 transparent transparent;
+            }
+        }
+    }
+}

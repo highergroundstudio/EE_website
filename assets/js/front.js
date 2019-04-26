@@ -18,7 +18,6 @@ $(function () {
   utils()
   animations()
   counters()
-  demo()
   contactFormAjax()
 })
 
@@ -38,40 +37,6 @@ function contactFormAjax () {
           .fadeIn()
       }
       , 'json')
-    return false
-  })
-}
-
-/* for demo purpose only - can be deleted */
-function demo () {
-  if ($.cookie('themeCSSpath')) {
-    $('link#theme-stylesheet').attr('href', $.cookie('themeCSSpath'))
-  }
-
-  $('#colour').change(function () {
-    if ($(this).val() !== '') {
-      var themeCSSpath = 'css/style.' + $(this).val() + '.css'
-
-      $('link#theme-stylesheet').attr('href', themeCSSpath)
-
-      $.cookie('themeCSSpath', themeCSSpath, {expires: 365, path: '/'})
-    }
-
-    return false
-  })
-
-  $('#layout').change(function () {
-    if ($(this).val() !== '') {
-      var themeLayout = $(this).val()
-
-      $('body').removeClass('wide')
-      $('body').removeClass('boxed')
-
-      $('body').addClass(themeLayout)
-
-      $.cookie('themeLayout', themeLayout, {expires: 365, path: '/'})
-    }
-
     return false
   })
 }

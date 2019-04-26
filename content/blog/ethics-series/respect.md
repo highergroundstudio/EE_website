@@ -4,7 +4,7 @@ date = "2018-09-04"
 tags = ["ethics"]
 author = "Jay King"
 categories = ["Code of Ethics"]
-description = " You cannot pay for respect. You cannot beg for respect. Respect is earned. It is earned through the way you treat people, conduct business, and present yourself. Respect should be one of your foundational cornerstones."
+description = "You cannot pay for respect. You cannot beg for respect. Respect is earned. It is earned through the way you treat people, conduct business, and present yourself. Respect should be one of your foundational cornerstones."
 banner = "img/banners/respect.jpg"
 +++
 

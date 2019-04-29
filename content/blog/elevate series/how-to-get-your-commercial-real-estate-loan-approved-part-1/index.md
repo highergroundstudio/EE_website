@@ -5,7 +5,10 @@ tags = ["Elevate"]
 author = "Jay King"
 categories = ["Elevate"]
 description = "If you go into seeking a Commercial Real Estate Loan with the right expectations and telling your “story” with the appropriate documentation, you can greatly increase your odds of getting your loan approved. We will first discuss setting expectations and next month we will discuss telling your “story”."
-banner = "writing_and_explaining.jpg"
+
+[[resources]]
+  name = "banner"
+  src = "images/writing_and_explaining.jpg"
 +++
 
 If you go into seeking a Commercial Real Estate Loan with the right expectations and telling your “story” with the appropriate documentation, you can greatly increase your odds of getting your loan approved. We will first discuss setting expectations and next month we will discuss telling your “story”.

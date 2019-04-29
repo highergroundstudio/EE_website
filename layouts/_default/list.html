@@ -25,11 +25,12 @@
                                 <div class="col-md-4">
                                   <div class="image">
                                       <a href="{{ .Permalink }}">
-                                          {{ if .Params.banner }}
-                                          <img src="{{ .Params.banner | relURL }}" class="img-responsive" alt="">
-                                          {{ else }}
+                                        {{ with .Resources.GetMatch "banner" }}
+                                          {{ $scaled := .Resize "250x200" }}
+                                          <img src="{{ $scaled.RelPermalink }}" alt="{{ $scaled.Title }}">
+                                        {{ else }}
                                           <img src="{{ "img/placeholder.png" | relURL }}" class="img-responsive" alt="">
-                                          {{ end }}
+                                        {{ end }}
                                       </a>
                                   </div>
                                 </div>

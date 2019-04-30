@@ -1,6 +1,6 @@
 +++
-title = "FAQ"
-description = "Frequently asked questions"
+title = "About Us"
+description = ""
 keywords = ["FAQ","How do I","questions","what if"]
 +++
 

@@ -19,25 +19,37 @@ paginate = 10
 # Main menu
 
 [[menu.main]]
-    name = "Home"
-    url  = "/"
+    name = "About"
+    identifier = "about"
+    url  = "/about/"
     weight = 1
+
+[[menu.main]]
+    name = "Loan Programs"
+    identifier = "loan-programs"
+    url  = "/loan-programs/"
+    weight = 2
+
+[[menu.main]]
+    name = "Transactions"
+    identifier = "transactions"
+    url  = "/transactions/"
+    weight = 3
 
 [[menu.main]]
     name = "Blog"
     url  = "/blog/"
-    weight = 2
-
-[[menu.main]]
-    name = "FAQ"
-    identifier = "faq"
-    url  = "/faq/"
-    weight = 3
-
-[[menu.main]]
-    name = "Contact"
-    url  = "/contact/"
     weight = 4
+
+[[menu.main]]
+    name = "Apply Now"
+    url  = "/apply-now/"
+    weight = 5
+
+[[menu.main]]
+    name = "Contact Us"
+    url  = "/contact/"
+    weight = 6
 
 # Top bar social links menu
 

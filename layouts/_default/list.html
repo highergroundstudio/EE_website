@@ -26,7 +26,7 @@
                                   <div class="image">
                                       <a href="{{ .Permalink }}">
                                         {{ with .Resources.GetMatch "banner" }}
-                                          {{ $scaled := .Resize "250x200" }}
+                                          {{ $scaled := .Resize "255x191" }}
                                           <img src="{{ $scaled.RelPermalink }}" alt="{{ $scaled.Title }}">
                                         {{ else }}
                                           <img src="{{ "img/placeholder.png" | relURL }}" class="img-responsive" alt="">

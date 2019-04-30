@@ -32,7 +32,6 @@ button i.fa {
     }
 }
 
-p.lead,
 section,
 div.section {
     margin-bottom: 40px;
@@ -664,6 +663,12 @@ ul.list-style-none {
 
     &.background-image-fixed-2 {
         background: url('../img/fixed-background-2.jpg') center top no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    &.background-image-fixed-3 {
+        background: url('../img/fixed-background-3.jpg') center top no-repeat;
         background-attachment: fixed;
         background-size: cover;
     }

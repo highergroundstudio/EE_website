@@ -1,0 +1,19 @@
+{{ if isset .Site.Params "ready_to_talk" }}
+{{ if .Site.Params.ready_to_talk.enable }}
+<section class="bar background-image-fixed-3 no-mb color-white text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <img src="{{ "img/ee-logo-130.png" | relURL }}" width="130" height="130" alt="" title="Elevated Equities logo" class="text-center">
+                <h1 class="text-uppercase">{{ .Site.Params.ready_to_talk.title }}</h1>
+                <p class="lead">{{ .Site.Params.ready_to_talk.subtitle }}</p>
+                <p class="text-center">
+                    <a href="{{ .Site.Params.ready_to_talk.link_url }}" class="btn btn-template-transparent-black btn-lg">{{ .Site.Params.ready_to_talk.link_text }}</a>
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}

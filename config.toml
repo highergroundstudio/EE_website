@@ -146,11 +146,17 @@ paginate = 10
 
 [params.see_more]
     enable = true
-    icon = "fas fa-file"
-    title = "Do you want to see more?"
-    subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
-    link_url = "#"
-    link_text = "Check other homepages"
+    title = "We are a higher level of lending"
+    subtitle = "We are more than a commercial real estate lending company"
+    link_url = "about"
+    link_text = "WHO WE ARE"
+
+[params.ready_to_talk]
+    enable = true
+    title = "Ready to Talk?"
+    subtitle = "DO YOU HAVE A PROJECT WE CAN HELP WITH?"
+    link_url = "contact"
+    link_text = "Contact Us"
 
 [params.clients]
     enable = true

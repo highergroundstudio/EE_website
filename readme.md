@@ -1,1 +1,11 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/7773ac33-b529-4732-b08c-c868d60594d9/deploy-status)](https://app.netlify.com/sites/elevatedequities/deploys)
+# TODO
+- [ ] Performance optimization
+- [ ] Progressive Image Loading
+- [ ] Update partials so that pages only have their content and don't have to update multiple files each time
+- [ ] Add shortcode templates for pages (like about)
+- [ ] Add content to loan programs
+- [ ] Add content to transactions
+- [ ] Add content to blog
+- [ ] Add content to apply now
+- [ ] Organize contact us
+- [ ] Finish homepage

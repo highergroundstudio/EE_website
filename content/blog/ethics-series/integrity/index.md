@@ -5,7 +5,10 @@ tags = ["ethics"]
 author = "Jay King"
 categories = ["Code of Ethics"]
 description = "A company should have good ethics and one valuable ethic is integrity. Integrity is a valuable ethic to actively practice to avoid immoral ethics from eroding the foundations of your organization. The practice of integrity allows us to stand fast to the code of ethics we set before us as business owners or employees. This cornerstone ethic allows for a strong foundation to be built for the stability of good values as a business and to strengthen your very character as a person."
-banner = "img/banners/integrity.jpg"
+
+[[resources]]
+  name = "banner"
+  src = "images/ethics_banner.jpg"
 +++
 
 A company should have good ethics and one valuable ethic is integrity. Integrity is a valuable ethic to actively practice to avoid immoral ethics from eroding the foundations of your organization. The practice of integrity allows us to stand fast to the code of ethics we set before us as business owners or employees. This cornerstone ethic allows for a strong foundation to be built for the stability of good values as a business and to strengthen your very character as a person.

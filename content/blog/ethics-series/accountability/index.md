@@ -5,7 +5,10 @@ tags = ["ethics"]
 author = "Jay King"
 categories = ["Code of Ethics"]
 description = "Accountability is a word that should always exist in the business world. If one were to lack in their commitments, they would not be classified as someone who is accountable. Accountability is a business practice that should always be used and can be sharpened over the years to be even stronger. As a business owner, I strive to be accountable to my clients. Nothing is more embarrassing than letting the ball drop. Furthermore, as business owners we want our employees to be held accountable for their daily work. The more a person grows in this area, the more trustworthy they become."
-banner = "img/banners/accountability.jpg"
+
+[[resources]]
+  name = "banner"
+  src = "images/ethics_banner.jpg"
 +++
 
 *I decided to write about each aspect of my Code of Ethics for Elevated Equities to express why I find each of these important and to give advice to you of how you can apply them to your business. This is a 4-part series.*

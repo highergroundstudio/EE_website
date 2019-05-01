@@ -5,7 +5,10 @@ tags = ["ethics"]
 author = "Jay King"
 categories = ["Code of Ethics"]
 description = "You cannot pay for respect. You cannot beg for respect. Respect is earned. It is earned through the way you treat people, conduct business, and present yourself. Respect should be one of your foundational cornerstones."
-banner = "img/banners/respect.jpg"
+
+[[resources]]
+  name = "banner"
+  src = "images/ethics_banner.jpg"
 +++
 
 We have all heard the saying of “respect is earned, not given” and it is exactly true. You cannot pay for respect. You cannot beg for respect. Respect is earned. It is earned through the way you treat people, conduct business, and present yourself. Respect should be one of your foundational cornerstones.

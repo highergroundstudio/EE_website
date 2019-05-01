@@ -5,7 +5,10 @@ tags = ["ethics"]
 author = "Jay King"
 categories = ["Code of Ethics"]
 description = "We all strive to be at the top of our game. Could you imagine a company that doesn’t? It would be a disaster from the very beginning. I will conscientiously strive for excellence in my daily work. How is excellence achieved? Excellence in companies is not something that is achieved overnight. It is a quality that is developed over time through hard work and perseverance. How can you help your company reach excellence?"
-banner = "img/banners/excellence.jpg"
+
+[[resources]]
+  name = "banner"
+  src = "images/ethics_banner.jpg"
 +++
 
 We all strive to be at the top of our game. Could you imagine a company that doesn’t? It would be a disaster from the very beginning. I will conscientiously strive for excellence in my daily work. How is excellence achieved? Excellence in companies is not something that is achieved overnight. It is a quality that is developed over time through hard work and perseverance. How can you help your company reach excellence?

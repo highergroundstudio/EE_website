@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
 
-  {{ partial "head.html" . }}
+  {{ partial "header/head.html" . }}
 
   <body>
 
     <div id="all">
 
-        {{ partial "nav.html" . }}
+        {{ partial "header/nav.html" . }}
 
-        {{ partial "breadcrumbs.html" . }}
+        {{ partial "header/breadcrumbs.html" . }}
 
         <div id="content">
             <div class="container">
@@ -101,12 +101,12 @@
         </div>
         <!-- /#content -->
 
-        {{ partial "footer.html" . }}
+        {{ partial "footer/footer.html" . }}
 
     </div>
     <!-- /#all -->
 
-    {{ partial "scripts.html" . }}
+    {{ partial "footer/scripts.html" . }}
 
   </body>
 </html>

@@ -1,32 +1,3 @@
-#heading-breadcrumbs {
-    background: url('../img/texture-bw.png') center center repeat;
-    padding: 20px 0;
-    margin-bottom: 40px;
-
-    &.no-mb {
-        margin-bottom: 0;
-    }
-
-    h1 {
-        color: #333333;
-        text-transform: uppercase;
-        font-size: 30px;
-        font-weight: 700;
-        letter-spacing: 0.08em;
-    }
-
-    ul.breadcrumb {
-        margin-top: 5px;
-        margin-bottom: 0;
-    }
-}
-
-@media (max-width: 991px) {
-    #heading-breadcrumbs h1 {
-        text-align: center;
-    }
-}
-
 .see-more {
     text-align: center;
     margin-top: 20px;

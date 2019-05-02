@@ -1,0 +1,14 @@
+weight: 7
+name: "SFR Construction"
+property-types: "SFR (1-4)"
+closing-in-weeks: "2 to 4"
+min-loan-size: "$100k"
+max-loan-size: "$50M"
+max-ltv: "65% - 80%"
+max-ltc: "85% - 100%"
+max-land-ltv: ""
+interest-rate: "5%-10%"
+points: "1 to 3"
+ppp: ""
+terms-in-months: "3 to 24"
+

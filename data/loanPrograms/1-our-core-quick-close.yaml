@@ -1,0 +1,12 @@
+weight: 1
+name: "Our Core Quick Close"
+propertyTypes: "Commercial & Land"
+closingWeeks: "2 to 4"
+minLoan: "$500k ($50k in Colorado)"
+maxLoan: "$25M"
+maxLtv: "65%-75%"
+maxLandLtv: "50%-65%"
+interestRate: "7% - 12% depending on risk"
+points: "0 to 13 depending on risk"
+ppp: "None to 60 months"
+termsMonths: "3 to 60"

@@ -1,0 +1,12 @@
+weight: 4
+name: "USDA B&I"
+propertyTypes: "Commercial (no land)"
+closingWeeks: "4 to 6"
+minLoan: "$350k"
+maxLoan: "$15M"
+maxLtv: "90%"
+interestRate: "5.25%-7.99%"
+points: "0 to 3"
+ppp: "Yes"
+termsMonths: "60 to 120"
+

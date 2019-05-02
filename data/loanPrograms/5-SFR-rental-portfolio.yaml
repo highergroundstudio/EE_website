@@ -1,0 +1,13 @@
+weight: 5
+name: "SFR Rental Portfolio"
+propertyTypes: "SFR (1-4), condos"
+closingWeeks: "2 to 4"
+minLoan: "$50k"
+maxLoan: "$50M"
+maxLtv: "80%"
+maxLandLtv: "None"
+interestRate: "5%-9%"
+points: "1 to 2"
+ppp: "12 to 54 months"
+termsMonths: "60 to 360"
+

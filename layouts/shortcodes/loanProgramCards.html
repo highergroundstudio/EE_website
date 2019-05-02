@@ -1,0 +1,67 @@
+<section class="bar background-white">
+    <div class="container">
+        {{ if gt (len .Site.Data.loanPrograms) 0 }}
+        {{ range $index, $element := sort .Site.Data.loanPrograms "weight" }}
+        {{ if eq (mod $index 3) 0 }}
+        <div class="card-deck">
+            {{ end }}
+            <div class="card bg-light mb-3" style="width: 18rem;">
+                <div class="card-header">{{ $element.name }}</div>
+                <ul class="list-group list-group-flush">
+                    {{ if (isset $element "collateral")}}
+                        <li class="list-group-item">Collateral: {{ $element.collateral }}</li> 
+                    {{ end }} 
+                    {{ if (isset $element "propertyTypes") }}
+                        <li class="list-group-item">Property Types: {{ $element.propertyTypes }}</li>
+                    {{ end }}
+                    {{ if (isset $element "closingWeeks") }}
+                        <li class="list-group-item">Closing in weeks: {{ $element.closingWeeks }}</li>
+                    {{ end }}
+                    {{ if (isset $element "closingDays") }}
+                        <li class="list-group-item">Closing in days: {{ $element.closingDays }}</li>
+                    {{ end }}
+                    {{ if (isset $element "minLoan") }}
+                        <li class="list-group-item">Min Loan Size: {{ $element.minLoan }}</li>
+                    {{ end }}
+                    {{ if (isset $element "maxLoan") }}
+                        <li class="list-group-item">Max Loan Size: {{ $element.maxLoan }}</li>
+                    {{ end }}
+                    {{ if (isset $element "minSponsorCash") }}
+                        <li class="list-group-item">Min Sponsor Cash: {{ $element.minSponsorCash }}</li>
+                    {{ end }}
+                    {{ if (isset $element "annualIRR") }}
+                        <li class="list-group-item">Annual IRR: {{ $element.annualIRR }}</li>
+                    {{ end }}
+                    {{ if (isset $element "maxLtc") }}
+                        <li class="list-group-item">Max LTC: {{ $element.maxLtc }}</li>
+                    {{ end }}
+                    {{ if (isset $element "maxLtv") }}
+                        <li class="list-group-item">Max LTV: {{ $element.maxLtv }}</li>
+                    {{ end }}
+                    {{ if (isset $element "maxLandLtv") }}
+                        <li class="list-group-item">Max Land LTV: {{ $element.maxLandLtv }}</li>
+                    {{ end }}
+                    {{ if (isset $element "interestRate") }}
+                        <li class="list-group-item">Interest Rate: {{ $element.interestRate }}</li>
+                    {{ end }}
+                    {{ if (isset $element "points") }}
+                        <li class="list-group-item">Points: {{ $element.points }}</li>
+                    {{ end }}
+                    {{ if (isset $element "returnGuarantee") }}
+                        <li class="list-group-item">Return Guarantee: {{ $element.returnGuarantee }}</li>
+                    {{ end }}
+                    {{ if (isset $element "ppp") }}
+                        <li class="list-group-item">PPP: {{ $element.ppp }}</li>
+                    {{ end }}
+                    {{ if (isset $element "termsMonths") }}
+                        <li class="list-group-item">Term in months: {{ $element.termsMonths }}</li>
+                    {{ end }}
+                </ul>
+            </div>
+            {{ if or (eq (mod $index 3) 2) (eq $index (sub (len $.Site.Data.loanPrograms) 1 )) }}
+        </div> 
+        {{ end }}
+        {{ end }}
+        {{ end }}
+    </div>
+</section>

@@ -1,0 +1,13 @@
+weight: 8
+name: "Ag/Farm/Ranch"
+propertyTypes: "AgRelated"
+closingWeeks: "3 to 6"
+minLoan: "$100K"
+maxLoan: "$25M"
+maxLtv: "65%"
+maxLandLtv: "55%"
+interestRate: "7.99%-12%"
+points: "3 to 6"
+ppp: "Possible"
+termsMonths: "12 to 60"
+

@@ -1,0 +1,14 @@
+weight: 6
+name: "SFR Rental Purchase Line of Credit"
+propertyTypes: "SFR (1-4), condos"
+closingWeeks: "2 to 4"
+minLoan: "$1M"
+maxLoan: "$50M"
+maxLtc: "80%"
+maxLtv: "70%"
+setup-cost: "$5K-$15K for legal"
+interestRate: "8%-10%"
+points: "3% on each draw"
+ppp: "None"
+termsMonths: "18 with 12 month draw"
+

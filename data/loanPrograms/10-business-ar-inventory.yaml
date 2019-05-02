@@ -1,0 +1,10 @@
+weight: 10
+name: "Business AR/Inventory/Equipment Loans/Lines"
+collateral: "Unsecured, UCC, 2nd or 3rd"
+closingdays: "3 to 21"
+minLoan: "$50k"
+maxLoan: "$10M or more"
+annualIRR: "12%-40%"
+points: "0 to 3"
+termsMonths: "3 to 48"
+

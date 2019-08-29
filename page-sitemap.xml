@@ -1,23 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//elevatedequities.com/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//elevatedequities.netlify.com/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://elevatedequities.com/</loc>
+		<loc>https://elevatedequities.netlify.com/</loc>
 		<lastmod>2019-08-29T21:17:54+00:00</lastmod>
 		<image:image>
-			<image:loc>https://elevatedequities.com/wp-content/uploads/2016/09/testimonial-1.jpg</image:loc>
+			<image:loc>https://elevatedequities.netlify.com/wp-content/uploads/2016/09/testimonial-1.jpg</image:loc>
 			<image:caption><![CDATA[review1]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://elevatedequities.com/wp-content/uploads/2016/09/testimonial-3.jpg</image:loc>
+			<image:loc>https://elevatedequities.netlify.com/wp-content/uploads/2016/09/testimonial-3.jpg</image:loc>
 			<image:caption><![CDATA[review3]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://elevatedequities.com/wp-content/uploads/2016/09/testimonial-2.jpg</image:loc>
+			<image:loc>https://elevatedequities.netlify.com/wp-content/uploads/2016/09/testimonial-2.jpg</image:loc>
 			<image:caption><![CDATA[review2]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://elevatedequities.com/sample-page/</loc>
+		<loc>https://elevatedequities.netlify.com/sample-page/</loc>
 		<lastmod>2019-08-29T20:48:02+00:00</lastmod>
 	</url>
 </urlset>

@@ -1,0 +1,20 @@
+[17/Sep/2019:16:18:48] (ℹ️): WordPress Instance Info:
+[17/Sep/2019:16:18:48] (ℹ️): Home URL : http://ee.local
+[17/Sep/2019:16:18:48] (ℹ️): Site URL : http://ee.local
+[17/Sep/2019:16:18:48] (ℹ️): WordPress Version : 5.2.3
+[17/Sep/2019:16:18:48] (ℹ️): Onboarding Version : 1.6.3
+[17/Sep/2019:16:18:48] (ℹ️): Multisite : No
+[17/Sep/2019:16:18:48] (ℹ️): Server Info : nginx/1.14.0
+[17/Sep/2019:16:18:48] (ℹ️): PHP Version : 7.2.9
+[17/Sep/2019:16:18:48] (ℹ️): HTTPS : No
+[17/Sep/2019:16:18:48] (ℹ️): PHP Max Execution Time : 1200
+[17/Sep/2019:16:18:48] (ℹ️): PHP Max Input Vars : 4000
+[17/Sep/2019:16:18:48] (ℹ️): Max Upload Size : 314572800
+[17/Sep/2019:16:18:48] (ℹ️): Plugins:
+[17/Sep/2019:16:18:48] (ℹ️): [PLUGIN] Autoptimize : v2.5.1 (Frank Goossens (futtta))
+[17/Sep/2019:16:18:48] (ℹ️): [PLUGIN] Elementor Pro : v2.6.4 (Elementor.com)
+[17/Sep/2019:16:18:48] (ℹ️): [PLUGIN] Elementor : v2.7.2 (Elementor.com)
+[17/Sep/2019:16:18:48] (ℹ️): [PLUGIN] Image optimization service by Optimole : v2.1.1 (Optimole)
+[17/Sep/2019:16:18:48] (ℹ️): [PLUGIN] Gutenberg Blocks and Template Library by Otter : v1.2.5 (ThemeIsle)
+[17/Sep/2019:16:18:48] (ℹ️): [PLUGIN] WP2Static : v6.6.6 (Leon Stafford)
+[17/Sep/2019:16:18:48] (ℹ️): [PLUGIN] Orbit Fox Companion : v2.8.10 (Themeisle)

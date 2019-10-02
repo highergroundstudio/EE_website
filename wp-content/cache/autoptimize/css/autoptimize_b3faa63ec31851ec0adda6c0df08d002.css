@@ -2122,7 +2122,7 @@ pre.wp-block-verse {white-space: nowrap;overflow: auto;}
 .fa.fa-snowflake-o:before {content: "";}
 .fa.fa-spotify, .fa.fa-superpowers, .fa.fa-wpexplorer {font-family: "Font Awesome 5 Brands";font-weight: 400;}
 #wpadminbar .ea-wp-admin-bar>.ab-item {position: relative;padding-left: 33px;cursor: pointer;}
-#wpadminbar .ea-wp-admin-bar>.ab-item:before {position: absolute;display: block;width: 20px;height: 20px;content: "";top: 0;left: 5px;opacity: .75;background: url("https://elevatedequities.netlify.com/wp-content/plugins/essential-addons-for-elementor-lite/assets/admin/css/../images/ea-icon-white.svg") no-repeat scroll center 8px/85% !important;}
+#wpadminbar .ea-wp-admin-bar>.ab-item:before {position: absolute;display: block;width: 20px;height: 20px;content: "";top: 0;left: 5px;opacity: .75;background: url("//ee.local/wp-content/plugins/essential-addons-for-elementor-lite/assets/admin/css/../images/ea-icon-white.svg") no-repeat scroll center 8px/85% !important;}
 html {line-height: 1.15;-webkit-text-size-adjust: 100%;}
 body {margin: 0;}
 h1 {font-size: 2em;margin: .67em 0;}
@@ -2483,7 +2483,7 @@ footer.entry-footer .read-more span {display: inline-block;}
 body.admin-bar #tertiary.widget-area {top: 32px;}
 .opacityBox, .opacityMenu {position: fixed;width: 100%;height: 100%;background: rgba(0,0,0,.8);left: 0;top: 0;z-index: 9999;opacity: 0;visibility: hidden;-o-transition: all .3s ease-in-out;-moz-transition: all .3s ease-in-out;-webkit-transition: all .3s ease-in-out;transition: all .3s ease-in-out;}
 .opacityMenu {z-index: 999;}
-.opacityBox.yesOpen, .opacityMenu.menuOpen {cursor: url("https://cdn.shortpixel.ai/client/q_glossy,ret_img/https://PLACEHOLDER.wpsho/wp-content/themes/attesa/./images/cursor-close.png") 15 15,auto;opacity: 1;visibility: visible;}
+.opacityBox.yesOpen, .opacityMenu.menuOpen {cursor: url("//ee.local/wp-content/themes/attesa/./images/cursor-close.png") 15 15,auto;opacity: 1;visibility: visible;}
 .close-hamburger {position: absolute;display: inline-block;top: 1em;right: 1em;width: 30px;height: 30px;cursor: pointer;z-index: 9;}
 .close-ham-inner {position: absolute;top: 50%;display: block;width: 30px;height: 1px;}
 .close-ham-inner:before, .close-ham-inner:after {content: "";display: block;width: 30px;height: 2px;position: absolute;}
